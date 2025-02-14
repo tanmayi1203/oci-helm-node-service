@@ -92,7 +92,7 @@ steps:
     name: "Build container image"
     command: |
       cd ${OCI_WORKSPACE_DIR}/node_express
-      docker build --pull --rm -t iad.ocir.io/ocuocictrng24/helm-repo-user20/node-service:${BUILDRUN_HASH} .
+      docker build --pull --rm -t iad-dop-lab18-1-ocir-1/node-service-user20 .
 
 outputArtifacts:
   - name: APPLICATION_DOCKER_IMAGE
